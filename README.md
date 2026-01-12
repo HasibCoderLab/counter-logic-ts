@@ -42,6 +42,9 @@ counter-logic-TypeScript/
 └── README.md                # project README with preview + link
 ```
 
+![Preview](./src/assets/screenshot1.png)
+![Preview](./src/assets/screenshot2.png)
+
 ### 🎯 Why This Project
 
 This project was built to strengthen my TypeScript basics and understand how simple UI logic becomes more reliable with proper typing.
