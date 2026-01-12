@@ -1,3 +1,6 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .main {
     text-align: center;
 
@@ -8,25 +11,30 @@
 }
 
 .main button {
-    font-size: large;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    /* border: none; */
-    outline: none;
+    font-size: 1rem;
+    padding: 8px 16px;
+    border: 1px solid #0073e6;
+    border-radius: 6px; 
+    background-color: #0073e6; 
+    color: #fff; 
     cursor: pointer;
-
-
+    outline: none;
+    transition: background-color 0.2s ease;
     margin-right: 10px;
 }
+
+.main button:hover {
+    background-color: #005bb5; /* slightly darker on hover */
+}
+
+
 
 /* Contact With Me Section */
 .social-links {
     text-align: center;
-    margin-top: 50px;
-    padding-top: 30px;
-    border-top: 1px solid #ccc;
+    margin-top: 70px;
+    padding-top: 20px; 
+    border-top: 2px solid #0073e6; 
 }
 
 .social-links p {
@@ -101,17 +109,23 @@
 .youtube {
     background-color: #ffe5e5;
     color: #ff0000;
-}
+}/* Copyright Updated Style */
 .copyright {
-    margin-top: 50px;
-    padding: 20px 10px;
+    margin-top: 30px;
+    padding: 15px 10px; 
     text-align: center;
-    font-size: 0.9rem;
-    opacity: 0.85;
+    font-size: 0.85rem;
+    color: #555; 
+    background-color: #f9f9f9; 
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 
+
 .copyright strong {
-    font-weight: 600;
+    font-weight: 700;
+    color: #0073e6; 
 }
 
 .copyright p {
@@ -120,6 +134,22 @@
     line-height: 1.6;
 }
 
+/* Clock Style */
+.clock {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #0073e6;
+    background-color: #e6f0fa;
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    letter-spacing: 1px;
+    min-width: 120px;
+    text-align: center;
+}
 
 /* responsive for small screens */
 @media (max-width: 600px) {
