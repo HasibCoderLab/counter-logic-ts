@@ -71,7 +71,7 @@ npx tsc --init
 ```
 npx tsc --watch
 ```
-
+---
 
 📁 Project Structure
 
@@ -97,6 +97,7 @@ counter-logic-TypeScript/
 ```
 
 ![Preview](./src/assets/screenshot1.png)
+Responsive (Mobile View)
 ![Preview](./src/assets/screenshot2.png)
 
 ### 🎯 Why This Project
