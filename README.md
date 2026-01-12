@@ -41,3 +41,13 @@ counter-logic-TypeScript/
 ├── vite.config.ts           # optional,
 └── README.md                # project README with preview + link
 ```
+
+🎯 ### Why This Project
+
+This project was built to strengthen my TypeScript basics and understand how simple UI logic becomes more reliable with proper typing.
+
+Strong developers are built from strong fundamentals.
+
+❤️ ### Final Note
+
+This is a learning-focused project, intentionally kept simple.
