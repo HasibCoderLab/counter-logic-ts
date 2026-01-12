@@ -1,136 +1,130 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Segoe UI", system-ui, sans-serif;
-}
-
-/* Body */
-body {
-    min-height: 100vh;
-    background: linear-gradient(135deg, #0f172a, #020617);
-    color: #f8fafc;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-/* Main Counter Card */
 .main {
-    background: rgba(255, 255, 255, 0.05);
-    padding: 40px 30px;
-    border-radius: 16px;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 20px 50px rgba(0,0,0,0.6);
     text-align: center;
-    width: 90%;
-    max-width: 400px;
+
 }
 
 .main h1 {
-    font-size: 1.4rem;
-    margin-bottom: 15px;
-    color: #38bdf8;
+    margin-bottom: 50px;
 }
 
-#counter {
-    font-size: 4rem;
-    font-weight: bold;
-    margin: 20px 0;
-    color: #facc15;
-}
-
-/* Buttons */
-button {
-    padding: 12px 20px;
-    margin: 8px;
-    border: none;
-    border-radius: 10px;
-    font-size: 1.1rem;
+.main button {
+    font-size: large;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border: none; */
+    outline: none;
     cursor: pointer;
-    transition: 0.25s;
+
+
+    margin-right: 10px;
 }
 
-#plus {
-    background: #22c55e;
-    color: #022c22;
-}
-
-#minus {
-    background: #ef4444;
-    color: #450a0a;
-}
-
-#reset {
-    background: #38bdf8;
-    color: #082f49;
-}
-
-button:hover {
-    transform: translateY(-2px) scale(1.05);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
-}
-
-/* Social Section */
+/* Contact With Me Section */
 .social-links {
-    margin-top: 30px;
     text-align: center;
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 1px solid #ccc;
 }
 
 .social-links p {
-    margin-bottom: 10px;
-    color: #94a3b8;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #1a1a1a;
 }
 
 .links {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
 }
 
 .link {
     display: flex;
     align-items: center;
-    gap: 6px;
-    padding: 8px 14px;
-    border-radius: 20px;
-    background: rgba(255,255,255,0.08);
-    color: white;
+    gap: 8px;
     text-decoration: none;
-    font-size: 0.85rem;
-    transition: 0.3s;
+    padding: 10px 18px;
+    border-radius: 12px;
+    font-weight: 600;
+    background-color: #f3f3f3;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    color: #333;
 }
 
 .link img {
-    width: 16px;
-    height: 16px;
+    width: 22px;
+    height: 22px;
 }
 
 .link:hover {
-    background: #38bdf8;
-    color: #020617;
-    transform: translateY(-2px);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 
-/* Footer */
+/* Specific platform colors */
+.portfolio {
+    background-color: #cce7ff;
+    color: #0073e6;
+}
+
+.github {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.linkedin {
+    background-color: #e6f0fa;
+    color: #0077b5;
+}
+
+.facebook {
+    background-color: #e8f4ff;
+    color: #1877f2;
+}
+
+.instagram {
+    background-color: #fde2e4;
+    color: #c32aa3;
+}
+
+.twitter {
+    background-color: #e8f5fd;
+    color: #1da1f2;
+}
+
+.youtube {
+    background-color: #ffe5e5;
+    color: #ff0000;
+}
 .copyright {
-    margin-top: 40px;
-    padding: 20px;
+    margin-top: 50px;
+    padding: 20px 10px;
     text-align: center;
-    font-size: 0.85rem;
-    color: #94a3b8;
+    font-size: 0.9rem;
+    opacity: 0.85;
 }
 
-.copyright a {
-    color: #38bdf8;
-    text-decoration: none;
+.copyright strong {
+    font-weight: 600;
 }
 
-.clock {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-    color: #facc15;
-    letter-spacing: 2px;
+.copyright p {
+    margin: 0;
+    letter-spacing: 0.3px;
+    line-height: 1.6;
+}
+
+
+/* responsive for small screens */
+@media (max-width: 600px) {
+    .links {
+        flex-direction: column;
+        gap: 12px;
+    }
 }
