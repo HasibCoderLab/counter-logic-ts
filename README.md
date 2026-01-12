@@ -1,4 +1,58 @@
+# Counter Logic TypeScript (Ts)
 
+A simple **TypeScript-only** project that implements a counter with increment, decrement, and reset buttons, along with a live clock.  
+This project focuses on **clean TypeScript logic, proper DOM typing, and beginner-friendly frontend fundamentals**.
+
+---
+
+## ✨ Features
+
+- 🎯 Increment, decrement, and reset the counter
+- ⏰ Live digital clock updated every second
+- 🛡️ Type-safe DOM handling with TypeScript
+- ✅ Clean logic without unnecessary if-else nesting
+- 💻 Fully written in TypeScript, no direct JavaScript
+- 🎨 Minimal, readable UI with responsive design
+
+---
+
+## 🧠 What I Learned
+
+- How to safely access DOM elements in TypeScript using type assertions
+- Updating DOM elements dynamically and handling `textContent` possibly being `null`
+- How to structure event listeners for buttons efficiently
+- How TypeScript catches potential logic issues before runtime
+- Writing clean, maintainable frontend logic
+
+---
+
+## 🛠 Tech Stack
+
+- **TypeScript** (no direct JS)
+- HTML
+- CSS
+
+---
+
+## 🚀 How It Works
+
+- Each button (`+`, `-`, `Reset`) has an event listener attached
+- `+` increases the counter, `-` decreases it, and `Reset` sets it to 0
+- A separate interval updates the clock every second
+- TypeScript ensures all DOM elements are properly typed
+- Counter value and clock are dynamically updated in the DOM
+
+---
+
+
+
+## 💻 Getting Started
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/HasibCoderLab/counter-logic-typescript.git
+```
 
 ## 1️⃣ npm init
 ```
